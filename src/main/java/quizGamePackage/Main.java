@@ -61,6 +61,7 @@ public class Main {
 		String basepath = System.getProperty("user.dir");
 		String ActualPath = basepath + "\\src\\main\\java\\quizGamePackage\\FirstAttemptJay.json";
 		Map<String, String[]> x = p.GetMapofQuestions(ActualPath);
+		System.out.println(x);
 		QuizRounds qr = new QuizRounds();
 		for (int i=0; i<5; i++) {
 			
